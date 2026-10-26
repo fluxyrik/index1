@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Логотип — Налоговый консалтинг</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Иконки (подключим шрифт, чтобы не тащить SVG) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <div class="logo__icon"><i class="fa-solid fa-circle-notch"></i></div>
+                <div class="logo__text">
+                    <span class="logo__title">логотип</span>
+                    <span class="logo__subtitle">Корпоративный сайт<br>современной компании</span>
+                </div>
+            </div>
+            
+            <div class="header__contacts">
+                <a href="tel:+70000000000" class="header__phone">
+                    <i class="fa-solid fa-phone"></i> +7 (000) 000-00-00
+                </a>
+                <span class="header__desc">Центральный офис</span>
+                <button class="btn btn--outline">ЗАКАЗАТЬ ЗВОНОК</button>
+            </div>
+        </div>
+
+        <!-- НАВИГАЦИЯ -->
+        <nav class="nav">
+            <div class="container nav__container">
+                <ul class="nav__list">
+                    <li><a href="#">КОМПАНИЯ <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">КАТАЛОГ <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#" class="active">УСЛУГИ <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">ПРОЕКТЫ <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">КУРСЫ <i class="fa-solid fa-chevron-down"></i></a></li>
+                    <li><a href="#">ИНФОРМАЦИЯ <i class="fa-solid fa-chevron-down"></i></a></li>
+                </ul>
+                <div class="nav__actions">
+                    <button class="icon-btn"><i class="fa-solid fa-ellipsis"></i></button>
+                    <button class="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button class="icon-btn cart-btn">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="cart-badge">0</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ОСНОВНОЙ КОНТЕНТ -->
+    <main class="main">
+        <div class="container">
+            <!-- Хлебные крошки и заголовок -->
+            <div class="page-header">
+                <h1 class="page-title">Налоговый консалтинг</h1>
+                <div class="breadcrumbs">
+                    <a href="#">Главная</a> / <a href="#">Услуги</a> / <span>Налоговый консалтинг</span>
+                </div>
+            </div>
+
+            <div class="layout">
+                <!-- САЙДБАР -->
+                <aside class="sidebar">
+                    <ul class="sidebar__menu">
+                        <li><a href="#">Аутсорсинг <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li><a href="#">Аудит <i class="fa-solid fa-chevron-right"></i></a></li>
+                        <li class="active">
+                            <a href="#">Консалтинг <i class="fa-solid fa-chevron-down"></i></a>
+                            <ul class="sidebar__submenu">
+                                <li><a href="#">Налоговый консалтинг</a></li>
+                                <li><a href="#">Представительство в суде</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Строительство <i class="fa-solid fa-chevron-right"></i></a></li>
+                    </ul>
+
+                    <div class="sidebar__text">
+                        <p>Цель нашей компании - предложение широкого ассортимента товаров и услуг на постоянно высоком качестве обслуживания.</p>
+                    </div>
+                </aside>
+
+                <!-- КОНТЕНТ -->
+                <div class="content">
+                    <!-- Картинка-заглушка -->
+                    <div class="content__image placeholder-img">
+                        <!-- Здесь могла быть ваша картинка -->
+                        <i class="fa-regular fa-image"></i>
+                        <span>Изображение (1600x600)</span>
+                    </div>
+
+                    <div class="content__text">
+                        <p>Для описания технологии защиты информации конкретной информационной системы обычно строится так называемая Политика информационной безопасности или Политика безопасности рассматриваемой информационной системы. Политика безопасности (информации в организации) (англ. Organizational security policy) — совокупность документированных правил, процедур, практических приемов или руководящих принципов в области безопасности информации, которыми руководствуется организация в своей деятельности.</p>
+                        
+                        <p>Для построения Политики информационной безопасности рекомендуется отдельно рассматривать следующие направления защиты информационной системы:</p>
+                        <ul>
+                            <li>Защита объектов информационной системы;</li>
+                            <li>Защита процессов, процедур и программ обработки информации;</li>
+                        </ul>
+                    </div>
+
+                    <!-- Блок с вопросом -->
+                    <div class="ask-block">
+                        <div class="ask-block__icon">
+                            <i class="fa-solid fa-comment-dots"></i>
+                        </div>
+                        <div class="ask-block__text">
+                            <button class="btn btn--primary">ЗАДАТЬ ВОПРОС</button>
+                            <p>Наши специалисты ответят на любой интересующий вопрос по услуге</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
