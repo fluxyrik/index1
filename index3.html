@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macha - Boba Tea & Coffee</title>
+    <link rel="stylesheet" href="style3.css">
+    <!-- Иконки -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <span class="logo__title">MACHA</span>
+                <span class="logo__subtitle">BOOBA TEA & COFFEE</span>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#" class="active">HOME</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">LOCATIONS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <button class="btn btn--dark">ORDER NOW <i class="fa-solid fa-mug-hot"></i></button>
+                <button class="btn-icon"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ГЕРОЙ-БЛОК -->
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    MATCHA.<br>
+                    BOOBA.<br>
+                    <span class="italic-green">GOOD VIBES.</span>
+                    <i class="fa-solid fa-leaf leaf-icon"></i>
+                </h1>
+                <p class="hero__desc">Premium drinks. Real ingredients.<br>Made for your moment.</p>
+                
+                <div class="hero__buttons">
+                    <button class="btn btn--dark">ORDER NOW <i class="fa-solid fa-mug-hot"></i></button>
+                    <button class="btn btn--outline">VIEW MENU <i class="fa-solid fa-leaf"></i></button>
+                </div>
+
+                <div class="hero__features">
+                    <div class="feature">
+                        <i class="fa-solid fa-leaf"></i>
+                        <span>PREMIUM<br>INGREDIENTS</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-solid fa-blender"></i>
+                        <span>FRESHLY<br>MADE</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fa-regular fa-heart"></i>
+                        <span>MADE WITH<br>LOVE</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero__images">
+                <!-- Заглушки вместо фото -->
+                <div class="drink-placeholder drink-green">
+                    <i class="fa-solid fa-mug-saucer"></i>
+                    <span>MATCHA</span>
+                </div>
+                <div class="drink-placeholder drink-brown">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <span>BOOBA</span>
+                </div>
+                <!-- Круглый бейдж -->
+                <div class="circle-badge">
+                    <span>100%<br>REAL<br>MATCHA</span>
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЕСТСЕЛЛЕРЫ -->
+    <section class="bestsellers">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-title-group">
+                    <span class="label"><i class="fa-solid fa-leaf"></i> BEST SELLERS</span>
+                    <h2 class="section-title">Your Favorites<br>Right Here</h2>
+                </div>
+                <button class="btn btn--outline">VIEW ALL <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Товар 1 -->
+                <div class="product-card">
+                    <div class="product-img placeholder-green">
+                        <span class="tag tag--top">#1 TOP PICK</span>
+                        <i class="fa-solid fa-mug-saucer"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Matcha Latte<br>with Boba</h3>
+                        <div class="product-bottom">
+                            <span class="price">$5.75</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Товар 2 -->
+                <div class="product-card">
+                    <div class="product-img placeholder-brown">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Brown Sugar<br>Milk Tea</h3>
+                        <div class="product-bottom">
+                            <span class="price">$5.50</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Товар 3 -->
+                <div class="product-card">
+                    <div class="product-img placeholder-pink">
+                        <span class="tag tag--new">NEW</span>
+                        <i class="fa-solid fa-ice-cream"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Strawberry<br>Matcha Latte</h3>
+                        <div class="product-bottom">
+                            <span class="price">$5.95</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Товар 4 -->
+                <div class="product-card">
+                    <div class="product-img placeholder-dark">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Iced Coffee<br>with Boba</h3>
+                        <div class="product-bottom">
+                            <span class="price">$5.25</span>
+                            <button class="btn-add"><i class="fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БАННЕР -->
+    <section class="banner">
+        <div class="container banner__container">
+            <div class="banner__image">
+                <!-- Заглушка вместо фото интерьера -->
+                <div class="placeholder-interior">
+                    <i class="fa-solid fa-store"></i>
+                    <span>MACHA Interior</span>
+                </div>
+            </div>
+            <div class="banner__content">
+                <span class="label label--white">RELAX. SIP. ENJOY.</span>
+                <h2>Your Daily Escape</h2>
+                <p>Cozy vibes, great drinks,<br>better moments.</p>
+                <!-- Векторный стаканчик (нарисован через CSS) -->
+                <div class="banner__illustration">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ПОДВАЛ -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h4>10+ LOCATIONS</h4>
+                    <p>Near You</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <i class="fa-solid fa-seedling"></i>
+                <div>
+                    <h4>ECO FRIENDLY</h4>
+                    <p>Sustainable Choices</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <i class="fa-solid fa-gift"></i>
+                <div>
+                    <h4>REWARDS</h4>
+                    <p>Earn with Every Sip</p>
+                </div>
+            </div>
+            <div class="footer-item">
+                <i class="fa-brands fa-instagram"></i>
+                <div>
+                    <h4>FOLLOW US</h4>
+                    <p>@macha.cafe</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
